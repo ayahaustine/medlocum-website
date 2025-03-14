@@ -295,7 +295,7 @@ export function HeroSection() {
               >
                 <div className="device-screen h-full">
                   <Image
-                    src="/placeholder.svg?height=600&width=300&text=Medlocum"
+                    src="/7317101.png?height=600&width=300&text=Medlocum"
                     alt="Medlocum App Interface"
                     fill
                     priority
