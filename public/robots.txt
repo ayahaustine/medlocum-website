@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://medlocum.net/sitemap.xml
+
