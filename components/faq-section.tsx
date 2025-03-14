@@ -8,38 +8,46 @@ export function FaqSection() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, amount: 0.2 })
 
+
   const faqs = [
-    {
-      question: "How does Medlocum work for hospitals?",
-      answer:
-        "Medlocum allows hospitals to post shifts, manage staff, and find qualified medical professionals through our automated matching system. Our platform streamlines the entire staffing process, saving time and resources. The Hospital App provides real-time availability tracking, comprehensive dashboards, and automated matching to help you find the perfect medics for your needs.",
-    },
-    {
-      question: "How does Medlocum work for medical professionals?",
-      answer:
-        "Medical professionals can use Medlocum to find shifts that match their skills, availability, and location preferences. Our platform offers one-click applications, enhanced profile visibility, and an integrated calendar for schedule management. The Medic App helps you take control of your medical career with our intuitive platform.",
-    },
-    {
-      question: "Is Medlocum free to use?",
-      answer:
-        "Yes, both the Hospital App and Medic App are free to download and use. Medlocum charges a small service fee only when a successful match is made between a hospital and a medical professional. This ensures that our platform remains accessible to all healthcare providers and medical professionals.",
-    },
-    {
-      question: "What types of medical professionals can use Medlocum?",
-      answer:
-        "Medlocum supports a wide range of medical professionals including doctors, nurses, physician assistants, nurse practitioners, and other specialized healthcare providers looking for locum tenens opportunities. Our platform is designed to accommodate various medical specialties and skill sets.",
-    },
-    {
-      question: "How does the matching system work?",
-      answer:
-        "Our advanced matching system uses AI and machine learning to connect hospitals with the most suitable medical professionals based on skills, qualifications, availability, location, and preferences. This ensures that both parties find the perfect match for their needs, saving time and improving satisfaction.",
-    },
-    {
-      question: "Is my data secure on Medlocum?",
-      answer:
-        "Absolutely. We take data security and privacy very seriously. Medlocum employs industry-leading encryption and security measures to protect all user data. We are fully compliant with healthcare data regulations and never share your information without your explicit consent.",
-    },
-  ]
+  {
+    question: "How does Medlocum help hospitals manage staffing?",
+    answer:
+      "Medlocum empowers hospitals to post locum shifts, track real-time availability, and connect with qualified medics through our Hospital App (hospital.medlocum.net). Our automated matching system scores candidates based on skills (40%), availability (30%), location (20%), and ratings (10%), ensuring the perfect fit. Features like shift templates, comprehensive dashboards, and secure in-app messaging streamline operations, saving time and reducing staffing stress.",
+  },
+  {
+    question: "How can medical professionals benefit from Medlocum?",
+    answer:
+      "Medlocum makes it easy for medics to find and apply to locum shifts that match their expertise and schedule via the Medic App (medic.medlocum.net). With one-click applications, GPS-based job searches, and a dynamic profile showcasing skills and availability, you’re in control. Integrated calendar tools and priority job alerts help you manage your career effortlessly and grow your opportunities.",
+  },
+  {
+    question: "Is there a cost to use Medlocum?",
+    answer:
+      "The core features of both the Hospital App and Medic App are free to use, making Medlocum accessible to all. Hospitals can opt for tiered subscriptions (Basic, Pro, Enterprise) starting at 5,000 KES/month (~$40 USD) for advanced features like unlimited postings or AI-powered matching. Medics can access premium perks—like highlighted profiles or job application boosters—for as little as 100 KES (~$0.80 USD) per use. No hidden fees—just value when you need it.",
+  },
+  {
+    question: "Who can use Medlocum as a medical professional?",
+    answer:
+      "Medlocum welcomes a diverse range of healthcare providers, including doctors, nurses, physician assistants, nurse practitioners, and specialists seeking locum opportunities. Whether you’re in emergency medicine, pediatrics, or surgery, our platform supports your skills and preferences, connecting you with hospitals that need your expertise.",
+  },
+  {
+    question: "What powers the Medlocum matching system?",
+    answer:
+      "Our cutting-edge matching system leverages AI and machine learning to pair hospitals and medics efficiently. It analyzes skills, certifications, availability, location, and past performance to deliver highly compatible matches in real time. Hospitals see ranked candidates with compatibility scores, while medics get personalized job recommendations—ensuring faster placements and better outcomes.",
+  },
+  {
+    question: "How does Medlocum keep my data safe?",
+    answer:
+      "Your privacy is our priority. Medlocum uses end-to-end encryption, GDPR-compliant storage, and real-time license verification via medical board APIs to safeguard your data. Whether it’s hospital credentials or medic profiles, we adhere to strict healthcare regulations and never share your information without consent. Secure, reliable, and trusted—always.",
+  },
+  {
+    question: "How quickly can I get started with Medlocum?",
+    answer:
+      "Getting started is fast and simple. Hospitals can register with verified credentials and post shifts in minutes using the Hospital App. Medics can sign up with their professional details, upload certifications, and start applying to jobs instantly via the Medic App. With automated verification and intuitive tools, you’re up and running on March 14, 2025—or any day you join us!",
+  },
+];
+
+
 
   return (
     <section id="faq" className="py-20 bg-white">
