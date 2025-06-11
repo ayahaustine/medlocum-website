@@ -67,10 +67,10 @@ export function Navbar() {
             variant="outline"
             className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all"
           >
-            <Link href="https://hospital.medlocum.net">For Hospitals</Link>
+            <Link href="https://hospital-preview.medlocum.net">For Hospitals</Link>
           </Button>
           <Button asChild className="bg-blue-600 text-white hover:bg-blue-700 transition-all">
-            <Link href="https://medic.medlocum.net">For Medics</Link>
+            <Link href="https://medic-preview.medlocum.net">For Medics</Link>
           </Button>
         </div>
 
@@ -121,10 +121,10 @@ export function Navbar() {
                   variant="outline"
                   className="w-full border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
                 >
-                  <Link href="https://hospital.medlocum.net">For Hospitals</Link>
+                  <Link href="https://hospital-preview.medlocum.net">For Hospitals</Link>
                 </Button>
                 <Button asChild className="w-full bg-blue-600 text-white hover:bg-blue-700">
-                  <Link href="https://medic.medlocum.net">For Medics</Link>
+                  <Link href="https://medic-preview.medlocum.net">For Medics</Link>
                 </Button>
               </div>
             </div>
