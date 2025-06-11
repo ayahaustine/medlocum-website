@@ -253,7 +253,7 @@ export function HeroSection() {
                   className="bg-blue-600 hover:bg-blue-700 text-white transform transition-all hover:scale-105 group relative overflow-hidden"
                   onClick={createParticles}
                 >
-                  <Link href="https://hospital.medlocum.net">
+                  <Link href="https://hospital-preview.medlocum.net">
                     For Hospitals
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
@@ -268,7 +268,7 @@ export function HeroSection() {
                   className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white transform transition-all hover:scale-105 group relative overflow-hidden"
                   onClick={createParticles}
                 >
-                  <Link href="https://medic.medlocum.net">
+                  <Link href="https://medic-preview.medlocum.net">
                     For Medics
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
